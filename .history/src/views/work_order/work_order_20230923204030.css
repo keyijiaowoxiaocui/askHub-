@@ -1,0 +1,125 @@
+/* .el-collapse {
+  --el-collapse-border-color: #585e58 !important;
+  --el-collapse-header-height: 50px !important;
+  --el-collapse-header-bg-color: #070501 !important;
+  --el-collapse-header-text-color: #000 !important;
+  --el-collapse-content-bg-color: #2a2a29 !important;
+  --el-collapse-content-text-color: #000 !important;
+  border-top: 1px solid #585e58 !important;
+  border-bottom: 1px solid #585e58 !important;
+} */
+
+.el-collapse-item__content {
+  padding: 10px 10px 25px !important;
+}
+
+.el-collapse-item__wrap {
+  background-color: #f2f2f2 !important;
+}
+
+.el-input {
+  width: 90% !important;
+}
+
+.example-pagination-block+.example-pagination-block {
+  margin-top: 10px !important;
+}
+
+.example-pagination-block .example-demonstration {
+  margin-bottom: 16px !important;
+}
+
+.el-table .el-table__header-wrapper .el-table__header {
+  height: 80px !important;
+  /* background-color: #070501 !important; */
+}
+
+.el-table .el-table__inner-wrapper .el-table__row {
+  height: 80px !important;
+}
+
+.el-pager li.is-active {
+  color: #409eff !important;
+}
+
+.el-pager li:hover,
+.el-pagination button:hover {
+  color: #41da8b !important;
+}
+
+.el-button:focus,
+.el-button:hover {
+  border-color: #409eff;
+  background-color: #409eff;
+}
+
+.el-input .is-focus {
+  box-shadow: 0 0 0 1px #409eff inset !important;
+}
+
+.el-table th.el-table__cell,
+.el-input__wrapper,
+.el-textarea__inner {
+  /* background-color: #070501 !important; */
+}
+
+.el-textarea__inner {
+  color: #000 !important;
+}
+
+/* .el-pagination button.is-disabled,
+.el-pagination button:disabled {
+  /* background-color: #070501 !important; */
+}
+
+.el-pager li {
+  /* background-color: #070501 !important; */
+}
+
+.el-table tr {
+  /* background-color: #070501 !important; */
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover>td.el-table__cell {
+  background-color: #f2f2f2 !important;
+}
+
+.el-table {
+  color: #000 !important;
+}
+
+.el-table thead {
+  color: #409eff !important;
+}
+
+.el-input__inner {
+  color: #000 !important;
+}
+
+.el-upload-list--picture .el-upload-list__item {
+  /* background-color: #070501 !important; */
+}
+
+/* .el-button:focus,
+.el-button:hover {
+  border-color: #409eff !important;
+  background-color: #409eff !important;
+}
+
+/* :root {
+  --el-color-primary: #409eff !important;
+  --el-menu-active-color: #409eff !important;
+  --el-menu-text-color: #000 !important;
+  --el-menu-hover-text-color: #409eff !important;
+  --el-menu-bg-color: #070501 !important;
+  --el-menu-hover-bg-color: #2a2a29 !important;
+  --el-menu-item-height: 56px !important;
+  --el-menu-sub-item-height: calc(var(--el-menu-item-height) - 6px) !important;
+  --el-menu-horizontal-sub-item-height: 36px !important;
+  --el-menu-item-font-size: var(--el-font-size-base) !important;
+  --el-menu-item-hover-fill: var(--el-color-primary-light-9) !important;
+  --el-menu-border-color: var(--el-border-color) !important;
+  --el-menu-base-level-padding: 20px !important;
+  --el-menu-level-padding: 20px !important;
+  --el-menu-icon-width: 24px !important;
+} */

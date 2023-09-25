@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* min-width: 1557px; */
+    /* height: 50px; */
+    font-size: 14px;
+    font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+#app,
+.main {
+    width: 100%;
+    /* height: 100%; */
+}
+
+
+/* a {
+    color: #f2f2f2;
+    text-decoration: none;
+    outline: none;
+} */
+
+ul {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+
+/* 提取版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 超过 一行显示点点省略号 */
+
+.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+/* 超过两行生成省略号 */
+
+.ellipsis-2 {
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+
+/* 清除浮动 */
+
+.clearfix::after {
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+
+/* Guu页面从中心放大 */
+
+@media screen and (min-aspect-ratio: 36 / 64) {
+    html {
+        font-size: calc(100vh / 40) !important;
+    }
+}
+
+
+/* 以宽度为准 */
+
+
+/* @media screen and (max-aspect-ratio: 36 / 64) {
+    html {
+        font-size: calc(100vw / 22.5) !important;
+    }
+} */

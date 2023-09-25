@@ -1,0 +1,37 @@
+<template>
+	<div class="recommend_user w">
+		<div class="content">
+			<h1><span class="iconfont icon-xxx"></span>原创写手</h1>
+			<div class="flex">
+				<Avatar_name />
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+import Avatar_name from '@/components/Avatar_name';
+export default {
+	components: {
+		Avatar_name,
+	},
+};
+</script>
+
+<style lang="scss" scoped>
+h1 {
+	padding-top: 50px;
+	padding-left: 50px;
+	color: #f2f2f2;
+}
+.flex {
+	position: relative;
+	width: 1200px;
+	height: 359px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+</style>

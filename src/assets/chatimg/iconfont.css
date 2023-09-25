@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 4187064 */
+  src: url('https://at.alicdn.com/t/c/font_4187064_wjfr1icpzm.woff2?t=1690524367285') format('woff2'),
+    url('https://at.alicdn.com/t/c/font_4187064_wjfr1icpzm.woff?t=1690524367285') format('woff'),
+    url('https://at.alicdn.com/t/c/font_4187064_wjfr1icpzm.ttf?t=1690524367285') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 回复 */
+.icon-huifu:before {
+  content: "\e61a";
+}
+
+/* 删除 */
+.icon-shanchu:before {
+  content: '\e8c1';
+}
+
+/* 消息 */
+.icon-xiaoxi::before {
+  content: '\e86f';
+}
+
+/* 更多 */
+.icon-gengduo::before {
+  content: '\e68b';
+}
+
+/* 搜索 */
+.icon-sousuo::before {
+  content: '\e752';
+}
+
+/* 表情 */
+.icon-biaoqing1::before {
+  content: '\e63d';
+}
+
+/* 图片 */
+.icon-tupian::before {
+  content: '\e8ba';
+}
+
+
+.header-top[data-v-822d8bf4] {
+  background: #f2f3f5 !important;
+}
+
+.search_chat[data-v-822d8bf4] {
+
+  background: #f2f3f5 !important;
+
+}
+
+.container .leftSide[data-v-822d8bf4] {
+  background: #f2f3f5 !important;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.header[data-v-822d8bf4] {
+
+  background: #f2f3f5 !important;
+
+}
+
+.chatbox_input[data-v-822d8bf4] {
+
+  background: #ffffff !important;
+
+}
